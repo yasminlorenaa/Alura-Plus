@@ -3,8 +3,41 @@
     --cor_de_fundo : #00030C;
     --azul:#167bf7;
     --cinza:#c0c0c0;
+    --fonte-principal:'roboto'
 
  
 }
-body{background-color: var(--cor_de_fundo);
-color: var(--branco-principal);}
+body{
+    background-color: var(--cor_de_fundo);
+    color: var(--branco-principal);
+    font-family:var(--fonte-principal) ;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+*{margin: 0;
+padding: 0;
+}
+
+.principal{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao{
+    background-color: var(--azul);
+    border-radius:5px ;
+
+
+
+
+}
