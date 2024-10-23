@@ -1,10 +1,9 @@
 :root{
     --branco-principal: #ffffff;
-    --cor_de_fundo : #00030C;
-    --azul:#167bf7;
-    --cinza:#c0c0c0;
-    --fonte-principal:'roboto'
-
+    --cinza-secundario: #C0C0C0;
+    --botao-azul:#167bf7;
+    --cor-de-fundo: #00030C
+    --fonte-principal:'Inter'
  
 }
 body{
@@ -23,6 +22,8 @@ padding: 0;
     background-image: url("img/background.png");
     background-repeat: no-repeat ;
     background-size: contain ;
+    align-items: center;
+    text-align: center ;
 }
 
 .container{
@@ -32,7 +33,7 @@ padding: 0;
 }
 
 .container_botao{
-    background-color: var(--azul);
+    background-color: var(--botao-azul);
     border-radius:5px ;
     padding: 1em;
     color: var(--branco-principal) ;
@@ -61,5 +62,4 @@ padding: 0;
 }
 
 .container__caixa{
-    margin: 0 6em;
-}
+    margin: 0
